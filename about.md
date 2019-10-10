@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Aeronautical Engineer by education, Software Developer by trade.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I studied Aeronautical Engineering in Istanbul Technical University, Istanbul, Turkey and gradutated in 1996. I worked in software development since then and filled various roles including software testing, coding, project leading and leading software development teams.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[ozgur@insequor.com](mailto:ozgur@insequor.com)
