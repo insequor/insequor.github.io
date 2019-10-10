@@ -25,7 +25,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 100%;
   padding: 0 10px;
   width: 100%;
 }
@@ -117,6 +117,7 @@ img {
 
 .date {
   font-style: italic;
+  font-size: small;
   color: $gray;
 }
 
@@ -191,8 +192,8 @@ img {
 }
 
 .site-name {
-  margin: 0;
-  color: $darkGray;
+  margin: 5px 5px;
+  color: $white;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -202,7 +203,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: $white;
   font-size: 16px;
 
   @include mobile {
@@ -211,10 +212,12 @@ img {
 }
 
 nav {
-  float: right;
+  float: none;
   margin-top: 23px; // @TODO: Vertically middle align
+  margin-right: 5px;
   font-family: $helveticaNeue;
   font-size: 18px;
+  text-align: right;
 
   @include mobile {
     float: none;
@@ -225,7 +228,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: $white;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
@@ -282,6 +285,21 @@ footer {
   padding: 20px 0;
   text-align: center;
 }
+
+
+//My Additions
+.banner {
+    max-width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
