@@ -9,9 +9,11 @@ info: inspired from https://resume.chmd.fr/
 ============
 
 -------------------
-Software Developer with experience from testing to managing projects and teams for software development projects
-
-ozgur@insequor.com
+<blockquote>
+    Software Development Professional with experience in software testing, software development, managing projects and software development teams. Special interest in software development processes and practices.
+    <br/><br/>
+    ozgur@insequor.com
+</blockquote>
 
 -------------------
 
@@ -30,62 +32,57 @@ Mar, 2018 - Present
 :   Siemens Industry Software, Brasov, Romania
 
     Product Development Manager
-    
-    * sd 
-    * as
-
+    <hr/>
+    Responsible for Acoustics and part of Structural Dynamics product lines of <a href="https://www.plm.automation.siemens.com/global/en/products/simcenter/simcenter-3d.html" target="_blank">Simcenter 3D</a>, working with Pre & Post-processing and Vibro-acoustics solver teams. Following up development plans and product roadmap for the mentioned product lines. Working together with the project leaders of both teams for competence development as well as improving development processes and practices. 
+<hr/>
 Nov, 2007 - Mar, 2018
 :   Siemens Industry Software, Brasov, Romania
 
     Project Leader
-    
-    * Management of Noise, Vibration and Acoustics Applications Team
-    * Project planning and follow up
-    * People management and competence development
-    * Software Development 
+    <hr/>
+    Management of Pre & Post-processing team for Noise, Vibration and Acoustics Applications product line of <a href="https://www.plm.automation.siemens.com/global/en/products/simcenter/simcenter-3d.html" target="_blank">Simcenter 3D</a>. Project planning for release development and execution follow up. Working with team members for competence development. Supporting software development activities including hands-on coding and software testing. 
 
+    As an extra curriculum project, developed and maintained the in-house project management tool, replacing legacy system based on MS Project. Actively participated in updating software development processes. 
+<hr/>
 May, 2006 - Nov, 2007
 :   Siemens Industry Software, Brasov, Romania
 
     Software Development Engineer
-
-    * Software development, C++: Maintenance and extension of Virtual.Lab for Noise & Vibration functionality, extensive usage of CATIA-CAA framework. 
-    * Requirement Analysis & Specifications
-    * Development level testing
-
+    <hr/>
+    Software development, C++: Maintenance and extension of Virtual.Lab for Noise & Vibration functionality, extensive usage of <a href="https://www.3ds.com/products-services/catia/products/v5/portfolio/domain/CAA_RADE/" target="_blank">CATIA-CAA</a> framework. 
+    
+    As extra-curriculum activities, developed in-house tools to ease the development work. In-house code indexing and search tool is used extensively by all developers. 
+<hr/>
 Apr, 2004 - May, 2006
 :   Freelancer, Bucharest, Romania
-
+    <hr/>
     * Software development, C, C++, C#, Python: Tool development for computer games, QT based GUI development, Python package development for C++ APIs.
     * Consulting 
-    * Training for simulation systems (STAGE, FLSIM, HLSIM)
-
+    * Training for simulation systems (<a href="https://www.presagis.com/en/product/stage" target="_blank">STAGE</a>, <a href="https://www.presagis.com/en/product/flightsim" target="_blank">FlightSIM</a> and <a href="https://www.presagis.com/en/product/helisim/" target="_blank">HeliSIM</a>)
+<hr/>
 Sep, 2001 - Feb, 2004
 :   KCEI, Seoul, South Korea
 
-    Software Engineer
+    Software Developer
+    <hr/>
+    Hands-on experience with coding, testing, training and project management. Developed virtual reality projects for civil and military applications. Provided training and consulting for <a href="https://www.presagis.com/en/product/stage" target="_blank">STAGE</a>, <a href="https://www.presagis.com/en/product/flightsim" target="_blank">FlightSIM</a> and <a href="https://www.presagis.com/en/product/helisim/" target="_blank">HeliSIM</a>. Virtual Cockpit design for automotives using <a href="https://www.presagis.com/en/product/vaps" target="_blank">VAPS</a>. 
 
-    * Software development, C, C++: QT Based data visualization tools, animation library development, car cockpit system design in VAPS
-    * Consulting
-    * Project management and customer relations for defense projects
-    * Requirement analysis and specifications
-    * Trainings
-
+    Developed in-house tools for data visualization for realtime telemetry and animation libraries for 3D applications. 
+<hr/>
 Sep, 1998 - Sep, 2001
 :   Infotron, Istanbul, Turkey
 
-    Software Engineer
+    Software Developer
+    <hr/>
+    Hands-on experience with coding, testing, training and project management. Developed virtual reality projects for civil and military applications. Worked on Extension and integration of <a href="https://www.presagis.com/en/product/stage" target="_blank">STAGE</a>, <a href="https://www.presagis.com/en/product/flightsim" target="_blank">FlightSIM</a> and <a href="https://www.presagis.com/en/product/helisim/" target="_blank">HeliSIM</a>. Virtual Cockpit design for aircrafts using <a href="https://www.presagis.com/en/product/vaps" target="_blank">VAPS</a>. Handled end-user trainings as well as actively participated international exhibitions to demonstrate the projects. 
 
-    * Software development, C, C++: Extension and integration of STAGE, FLSIM, GUI development, digital terrain mapping, 
-    * Analysis and design of software projects
-    * Giving trainings to the customers as part of the projects and handling presentations including international exhibitions
-    * Quality control for military projects
-
+    Participated F5 Modernization trainings for Turkish Airforce in <a href="https://www.iai.co.il" target="_blank">Israel Aircraft Industries</a> and <a href="https://elbitsystems.com/" target="_blank">Elbit Systems</a>
+<hr/>
 Sep, 1996 - Sep, 1998
 :   SFS, Istanbul, Turkey
 
     System Analyst
-
+    <hr/>
     * Software development, C, Visual Basic: Reporting tool development, database development 
     * Analysis and design of software components
     * Testing
@@ -104,11 +101,18 @@ Programming Languages
 
 :   Basic knowledge of **C#**, **Visual Basic**, **ASP**, **PHP**, **Java**
 
-Tools
+Tools & Frameworks:
 
-:   **Something:** explain here
+:   **MS Office Tools:** Daily usage of Word, Excel, Power Point. Comfortable with Excel usage for dynamic content generation and analysis
 
-:   **Something else:** explain here
+:   **Project Planning and Management:** explain here
+
+:   **Version Control:** CVS, Mercurtial, Git
+
+:   **CATIA:**
+
+:   **NX:** 
+
 
 Languages:
 
@@ -122,5 +126,3 @@ References
 --------------------
 
 References are available upon request
-
-Shall we rename this section like Misc items and mention the rewards and trainings etc?

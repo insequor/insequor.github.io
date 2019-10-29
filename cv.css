@@ -10,7 +10,7 @@
 /* Whole document */
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    width: 800px;
+    width: 80%;
     margin: auto;
     background: #FFFFFF;
     padding: 10px 10px 10px 10px;
@@ -43,6 +43,7 @@ h2:before {
     height: 10px;
     background-color: #9CB770;
 }
+
 
 /* Definitions */
 dt {
