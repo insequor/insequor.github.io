@@ -93,27 +93,22 @@ Skills & Knowledge
 
 Programming Languages
 
-:   **C/C++:**
+:   **C/C++:** Fluent. Hands-on experience developing in highly regulated environments following strict coding standards and review processes.
 
-:   **python:**
+:   **python:** Fluent. Hands-on experience in GUI development, web scrapping, databases and networking.
 
-:   **javascript:**
+:   **javascript:** Intermediate. Hands-on experience in commonly used front-end frameworks.
 
 :   Basic knowledge of **C#**, **Visual Basic**, **ASP**, **PHP**, **Java**
-
+<hr/>
 Tools & Frameworks:
 
-:   **MS Office Tools:** Daily usage of Word, Excel, Power Point. Comfortable with Excel usage for dynamic content generation and analysis
+:   **Office Tools:** Daily usage of text editing, spread sheet and presentations tools. Mainly worked with Microsoft applications but had limited exposure to others as well. Comfortable with Excel usage for dynamic content generation and analysis
 
-:   **Project Planning and Management:** explain here
+:   **Project Planning and Management:** Worked with several project planning and management tools including developing my own which is used by a large group of developers through several years.
 
-:   **Version Control:** CVS, Mercurtial, Git
-
-:   **CATIA:**
-
-:   **NX:** 
-
-
+:   **Version Control:** Always worked with version control for software development projects. Gained hands on experience with CVS and Mercurtial in professional work. Had experience with Git through personal projects.
+<hr/>
 Languages:
 
 :   **Turkish:**  Native
