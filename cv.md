@@ -12,7 +12,7 @@ info: inspired from https://resume.chmd.fr/
 <blockquote>
     Software Development Professional with experience in software testing, software development, managing projects and software development teams. Special interest in software development processes and practices.
     <br/><br/>
-    ozgur@insequor.com
+    ozgur@<hidden>null</hidden>insequor<hidden>null</hidden>.com
 </blockquote>
 
 -------------------
