@@ -24,7 +24,7 @@ body {
 }
 
 .container {
-  margin: 0 auto;
+  _margin: 0 auto;
   max-width: 100%;
   padding: 0 10px;
   width: 100%;
@@ -152,11 +152,11 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 
 .masthead {
-  padding: 20px 0;
+  padding: 5px 0;
   border-bottom: 1px solid $lightGray;
 
   @include mobile {
@@ -213,7 +213,7 @@ img {
 
 nav {
   float: none;
-  margin-top: 23px; // @TODO: Vertically middle align
+  margin-top: 3px; // @TODO: Vertically middle align
   margin-right: 5px;
   font-family: $helveticaNeue;
   font-size: 18px;
@@ -275,7 +275,8 @@ nav {
 }
 
 .wrapper-footer {
-  margin-top: 50px;
+  font-size:small;
+  margin-top: 0px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
@@ -290,10 +291,32 @@ footer {
 //My Additions
 .banner {
     max-width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    height: 700px;
+    _padding-top: 10px;
+    _padding-bottom: 10px;
     background-color: black;
+
+    background-image: url("{{ site.baseurl }}/images/patrick-tomasso-5hvn-2WW6rY-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    
 }
+
+.narrow-banner {
+    max-width: 100%;
+    height: 200px;
+    _padding-top: 10px;
+    _padding-bottom: 10px;
+    background-color: black;
+
+    background-image: url("{{ site.baseurl }}/images/patrick-tomasso-5hvn-2WW6rY-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    
+}
+
 
 ::-webkit-scrollbar {
     display: none;

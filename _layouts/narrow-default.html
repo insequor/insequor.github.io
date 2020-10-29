@@ -14,11 +14,12 @@
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
+
   <body>
     <div class="wrapper-masthead">
-        <div class="container">
-                <header class="masthead clearfix">
-                    <div class="{% if page.title != 'index' %} narrow-{% endif %}banner">
+      <div class="container">
+        <header class="masthead clearfix">
+          <div class="narrow-banner">
                 <div class="site-info">
                     <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
                 </div>
@@ -32,14 +33,18 @@
                 <img src="{{ site.baseurl }}/images/patrick-tomasso-5hvn-2WW6rY-unsplash.jpg" />
                 -->
             </div>
-        
-        
+
+            
+
+                  
         </header>
       </div>
     </div>
+
     <div id="main" role="main" class="container">
-        {{ content }}
+      {{ content }}
     </div>
+
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
