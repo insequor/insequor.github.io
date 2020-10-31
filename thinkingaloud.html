@@ -1,0 +1,53 @@
+---
+layout: default
+---
+<h1>Thinking Aloud</h1>
+<p>
+    I'd like to think this place as my study notes rather than a blog. 
+    There are a couple of topics which I find interesting. They are mostly 
+    related to software development. I'd like to give more structure to my 
+    thinking and writing seems to be a good way of doing just that. 
+</p>
+
+<p>
+    He is a list of topics I am considering so far: 
+</p>
+
+
+<div class="themes">
+    <table style="margin-left:20px; padding:0px;">
+        {% for post in site.posts %}
+            {% if post.theme %}
+                <tr>
+                    <td style="padding:5px;">
+                        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                    </td>
+                    <td style="padding:5px;">
+                        {{ post.excerpt }}
+                    </td>
+                </tr>
+            {% endif %}
+        {% endfor %}
+    </table>
+</div>
+
+<br/>
+<p>And here is a chronological list of all entries</p>
+
+<div class="posts">
+    {% for post in site.posts %}
+        {% unless post.theme %}
+            <article class="post">
+                <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+                <div class="date">
+                    {{ post.date | date: "%B %e, %Y" }}
+                </div>
+                <div class="entry">
+                    {{ post.excerpt }}
+                </div>
+
+                <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+            </article>
+        {% endunless %}
+    {% endfor %}
+</div>

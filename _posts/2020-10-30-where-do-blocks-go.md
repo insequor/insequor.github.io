@@ -2,6 +2,7 @@
 layout: post
 title: Where Do Blocks Go?
 tags: design
+permalink: /thinkingaloud/:title
 ---
 
 Using LEGO in training activities is nothing new. The bricks found their use in exercises from team building activities to product design problems. Building constructions for given constraints is an interesting and entertaining activity. But I found what happens afterwards more interesting and more challenging. And perhaps, more relevant to product design problems. Where do the bricks go when you are done playing?
