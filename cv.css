@@ -60,10 +60,6 @@ p {
     margin-bottom:7px;
 }
 
-/* obscurring e-mail address from web-scrabbing */
-hidden {
-    display: none
-}
 
 /* Blockquotes */
 blockquote {

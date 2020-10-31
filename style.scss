@@ -9,6 +9,11 @@
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
+/* obscurring e-mail address from web-scrabbing */
+hidden {
+    display: none
+}
+
 /**************/
 /* BASE RULES */
 /**************/
