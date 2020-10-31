@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Thoughts on Team of Teams
-status: draft
+tags: 
 ---
 
 There are many things to like about General Stanley McChrystal’s [book][1]. It is full of a first-person account of challenges, experiments and results as well as references to the history of management science. Evaluation of organizations is explained with the necessary theory as well as known examples of applications. It is very practical with a clear message and a tone to encourage action. But at the same time very open-ended inviting for further reading and analysis.
