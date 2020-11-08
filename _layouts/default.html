@@ -17,38 +17,37 @@
   <body>
     <div class="wrapper-masthead">
         <div class="container">
-                <header class="masthead clearfix">
-                    <div class="{% if page.title != 'index' %} narrow-{% endif %}banner">
-                <div class="site-info">
-                    <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-                </div>
+            <header class="masthead clearfix">
+                <div id="banner" class="{% if page.title != 'index' %} narrow-{% endif %}banner">
+                    <div class="site-info">
+                        <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+                    </div>
 
-                <nav>
-                    <a href="{{ site.baseurl }}/about">About</a>
-                    <a href="{{ site.baseurl }}/thinkingaloud">Thinking Aloud</a>
-                    <a href="{{ site.baseurl }}/cv">CV</a>
-                </nav>
-                <!--
-                <img src="{{ site.baseurl }}/images/patrick-tomasso-5hvn-2WW6rY-unsplash.jpg" />
-                -->
-            </div>
-        
-        
-        </header>
-      </div>
+                    <nav>
+                        <a href="{{ site.baseurl }}/about">About</a>
+                        <a href="{{ site.baseurl }}/thinkingaloud">Thinking Aloud</a>
+                        <a href="{{ site.baseurl }}/cv">CV</a>
+                    </nav>
+                
+                    <span class="photoref">Photo by <a href="https://unsplash.com/@impatrickt?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Patrick Tomasso</a> on <a href="https://unsplash.com/s/photos/autumn?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
+                </div>
+            </header>
+        </div>
     </div>
     <div id="main" role="main" class="container">
         {{ content }}
     </div>
-    <div class="wrapper-footer">
+    <div id="footer" class="wrapper-footer">
       <div class="container">
         <footer class="footer">
           <!-- {% include svg-icons.html %} -->
-          <span>Photo by <a href="https://unsplash.com/@impatrickt?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Patrick Tomasso</a> on <a href="https://unsplash.com/s/photos/autumn?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
         </footer>
       </div>
     </div>
-
     {% include analytics.html %}
   </body>
+
+
+
 </html>
