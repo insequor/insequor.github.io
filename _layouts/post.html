@@ -42,7 +42,7 @@ layout: default
     }
   }
 
-  $.ajax("https://github.com/insequor/insequor.github.io/issues/{{page.commentIssueId}}/comments", {
+  $.ajax("https://api.github.com/repos/insequor/insequor.github.com/issues//{{page.commentIssueId}}/comments", {
     headers: {Accept: "application/vnd.github.full+json"},
     success: function(msg){
       loadComments(msg);
