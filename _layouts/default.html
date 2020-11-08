@@ -49,5 +49,25 @@
   </body>
 
 
+  <script type="text/javascript">
+    function reportWindowSize() {
+        var banner = document.getElementById("banner");
+        var footer = document.getElementById("footer"); 
+        var main = document.getElementById("main");
+        var imageHeight = window.innerHeight - footer.offsetHeight - main.offsetHeight;
+        if(main.offsetHeight > 0) {
+            //I think this is because of some extra space between the main and footer but when main is not empty
+            //we don't see the footer unless we make the image even smaller
+            imageHeight -= footer.offsetHeight;
+        }
+        if(imageHeight < 200){
+            imageHeight = 200;
+        }
+        banner.style.height = '' + imageHeight  + 'px';
+    }
+    window.onresize = reportWindowSize;
+    window.onload = reportWindowSize;
+
+</script>
 
 </html>
